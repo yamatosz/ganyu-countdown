@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    height: 100vh;
+    background: url("./background-b.jpg");
+    background-size: cover;
+    background-position: cover;
+    background-repeat: repeat;
+    display: grid;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    border-bottom: white;
+}
+
+footer{
+    margin-top: auto;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    opacity: 80%;
+}
+
+p{
+    text-align: center;
+    display: block;
+}
+
+.Countdown {
+    display: grid;
+    margin-top: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 400px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.Countdown li{
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border-style: solid;
+}
+
+.Countdown li span {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+
+}

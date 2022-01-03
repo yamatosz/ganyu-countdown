@@ -15,6 +15,7 @@ body{
     background-repeat: repeat;
     display: grid;
     align-items: center;
+    font-size: 20px;
 }
 
 h1{
@@ -60,6 +61,5 @@ p{
 .Countdown li span {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 8rem;
-
+    font-size: 15rem;
 }

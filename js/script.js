@@ -1,6 +1,6 @@
 import Countdown from "./countdown.js";
 
-const tempoParaAGanyu = new Countdown("25 January 2022 18:00:00 GMT-0300");
+const tempoParaAGanyu = new Countdown("25 January 2022 20:00:00 GMT-0300");
 const tempos = document.querySelectorAll("[data-time]");
 
 function mostrarTempo() {

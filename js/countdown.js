@@ -9,7 +9,7 @@ export default class Countdown {
         return new Date(this.futureDate);
     }
     get _timeStampDiff() {
-        return this._futureDate.getTime() - this._actualDate.getTime();
+        return this._actualDate.getTime() - this._futureDate.getTime();
     }
     get days() {
         return Math.floor(this._timeStampDiff / (24 * 60 * 60 * 1000));
